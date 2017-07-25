@@ -104,8 +104,8 @@
       <option name="SQL" value="false" />
       <option name="HAML" value="false" />
     </context>
-  </template>
-  <template name="pf" value="print &quot;$string$&quot;.format($args$)&#10;$END$" description="print formatted string" toReformat="false" toShortenFQNames="true">
+  </template> 
+  <template name="pf" value="print(&quot;$string$&quot;.format($args$)&#10;)$END$" description="print formatted string" toReformat="false" toShortenFQNames="true">
     <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
